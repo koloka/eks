@@ -1,0 +1,66 @@
+.pimg img{
+  width: 100%;
+}
+.pimg{
+  width: 200px;
+  height: 200px;
+  grid-area: img;
+  box-shadow: 2px 2px 8px 1px #d1d1d1;
+}
+.pimg:hover{
+  box-shadow: 2px 2px 8px 1px #09daff70;
+}
+.pdes{
+  grid-area: des;
+  padding: 10px;
+  position: relative;
+}
+.pdes h1{
+  font-size: 25px;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+  border-bottom: 1px rgb(206, 206, 206) solid;
+}
+.pprice{
+  position: absolute;
+  font-size: 20px;
+  margin: 0;
+  bottom: 0;
+  right: 0;
+}
+.product-wrapper{
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "img des";
+  box-shadow: 2px 2px 8px 1px #dddddd;
+}
+.product-block{
+  margin-bottom: 10px;
+}
+.product-wrapper:hover{
+  box-shadow: 2px 2px 8px 1px #e7e30063;
+}
+.admin-delete{
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+.admin-delete:hover{
+  color: red;
+  border-bottom: 1px rgb(198, 198, 252) solid;
+}
+
+a.nostyle:link {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+a.nostyle:visited {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
+}

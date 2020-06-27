@@ -1,0 +1,28 @@
+.url-list .url-row:nth-child(odd){
+  background: rgb(241, 241, 241);
+}
+.addproductcontainer input{
+  margin-bottom: 10px;
+}
+.addproductcontainer textarea{
+  margin-bottom: 10px;
+}
+.addproductcontainer select{
+  /* padding: 10px; */
+  height: 50px;
+}
+.url-ptag{
+  display: block;
+  width: 100%;
+  overflow: hidden;
+
+}
+@media only screen and (max-width: 770px) {
+  .form-check{
+    margin-left: 15px;
+  }
+  .addtagmargin{
+    margin-bottom: 20px;
+    margin-left: 15px;
+  }
+}

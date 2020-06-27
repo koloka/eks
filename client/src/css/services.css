@@ -1,0 +1,27 @@
+#services{
+  font-family: 'Battambang', cursive;
+}
+#services img{
+  width: 100%;
+}
+#services-bar-bg h1{
+  margin: 0;
+  text-align: center;
+  font-size: 30px;
+  line-height: 50px;
+}
+#services-bar-bg {
+  background-size: cover;
+}
+
+
+#services-detail img{
+  width: 30%;
+  display: block;
+  margin: auto;
+}
+#services-detail p{
+  padding-top: 10px;
+  text-align: center;
+  margin: 0;
+}
